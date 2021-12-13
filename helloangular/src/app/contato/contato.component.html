@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3>Entre em contato</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            Digite algo: <input type="text" class="form-control" [(ngModel)] = "valor"> 
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            Valor digitado = {{ valor }}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <button type="button" class="btn btn-primary" (click)="restaura()">Restaurar Valores</button>
+        </div>
+    </div>
+
+</div>

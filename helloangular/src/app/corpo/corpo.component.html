@@ -1,0 +1,13 @@
+<p>Filosofia é uma área do conhecimento dedicada à construção de saberes lógicos e racionais. A filosofia produz um conhecimento sistemático a partir da argumentação e da criação de conceitos.
+</p>
+     
+    <div id="lista">
+        <div *ngfor="let ITEM of listaProduto">
+            Produto: {{ ITEM.id }} / {{ITEM.nome}} / R$ {{ITEM.preco}}
+        <hr />    
+        </div>
+    </div> 
+    {{ cliente.id }} - {{ cliente.nome }} - {{ cliente.email }} - {{ cliente.endereco }}
+
+    <button type="button" (click)="alterar()" class="btn btn-primary">Altera o nome</button>
+    <button type="button" (click)="navegar()" class="btn btn-primary">Navegue</button>
